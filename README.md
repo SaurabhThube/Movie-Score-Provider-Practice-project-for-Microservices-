@@ -1,4 +1,6 @@
 # Movie Score Provider Practice project for Microservices
+# Highlights: Service Discovery Pattern, Circuit Breaker Pattern, Client Side Load Balancing (Netflix Eureka, Netflix Hystrix)
+
 Implementation of microservices in Spring Boot for a movie score provider service. Implementation of best practices to follow while designing microservices which communicate with each other.
 1) It has 3 services. movie-catalog-service, movie-info-service and ratings-data-service. 
 2) movie-catalog-service communicates w ith two of the other services to provides the score for the movieId provided through      JSON request.
